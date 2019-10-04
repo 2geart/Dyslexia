@@ -546,7 +546,11 @@ p {
  width:640px !important;
 }      
 }
-
+@media (max-width: 1024px){
+.header_video {
+ margin: 0px auto 0;
+}      
+}
 /* === Problem === */
 
 #problem {
