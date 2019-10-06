@@ -1,7 +1,7 @@
 <?php
 
-	define('XPEEDSTUDIO_EMAIL', 'overnoise@tut.by');
-	define('XPEEDSTUDIO_SUBJECT', 'New Contact Email');
+	define('XPEEDSTUDIO_EMAIL', 'kosta232st@yandex.ru');
+	define('XPEEDSTUDIO_SUBJECT', 'Вопрос с сайта Dyslexia.PRO');
 	define('XPEEDSTUDIO_SUCCESS_MASSAGE', 'Successfully Sent Email');
 
 ?>
