@@ -87,7 +87,7 @@
 				
 				if (target.length) {
 					$('html,body').animate({
-						scrollTop: target.offset().top
+						scrollTop: target.offset().top - 60
 					}, 1000);
 					return false;
 				}
