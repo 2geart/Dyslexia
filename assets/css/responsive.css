@@ -126,6 +126,8 @@
         font-size: 14px;
     }
 
+    .main-list {font-size: 14px;}
+
     .xs-header {
         padding-bottom: 100px;
     }
@@ -338,6 +340,16 @@
         width: 160px;
     }
 
+    #answer.our-decision .answer_desc .numbered-list, #answer.our-decision .answer_desc p {
+      width: 100%;
+    }
+
+    .book-description {
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+    }
+    .book-description ul {padding: 0; padding-left: 15px;}
 
 }
 
@@ -388,5 +400,3 @@
 
 
 }
-
-
