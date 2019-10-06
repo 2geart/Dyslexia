@@ -139,6 +139,10 @@
         font-size: 14px;
     }
 
+    .headerContent_button {
+        padding-bottom: 180px;
+    }
+
     .headerContent_button a {
         padding: 12px 35px;
         font-size: 14px;
@@ -338,6 +342,13 @@
 }
 
 
+@media (max-width: 640px) {
+    .headerContent_button {
+        padding-bottom: 80px;
+    }
+
+}
+
 @media (max-width: 576px) {
 
     .headerContent_title {
@@ -345,7 +356,7 @@
     }
 
     .headerContent_button {
-
+        padding-bottom: 40px;
     }
 
     h1 {
