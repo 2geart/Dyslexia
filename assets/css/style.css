@@ -606,11 +606,18 @@ p {
 @media (max-width: 640px) {
     .header_video {
         display: block;
-        margin: -250px auto 0;
-        height: 800px !important;
-        width: 640px !important;
+        margin: -300px auto 0;
+        height: 1000px !important;
+        width: 940px !important;
+        overflow: hidden;
+        max-width: 100%;
+    }
+
+    video {
+        max-width: 360%;
     }
 }
+
 
 
 /* === Problem === */
@@ -620,6 +627,7 @@ p {
     max-width: 100%;
     border-bottom: 1px solid #FFF;
     background-color: #fff;
+    margin-top: -2px;
 }
 
 .problem_desc {
