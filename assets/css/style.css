@@ -657,6 +657,9 @@ p {
     background-image: linear-gradient(to top, #660066, #b700b7);
 }
 
+.problem_img {
+    padding-top: 80px;
+}
 
 /* === Answer === */
 

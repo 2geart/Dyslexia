@@ -284,6 +284,10 @@
         margin-bottom: 25px;
     }
 
+    .problem_img {
+        padding-top: 0px;
+    }
+
     .answer_blocks {
         padding-top: 30px;
     }
