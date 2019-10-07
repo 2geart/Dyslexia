@@ -126,7 +126,9 @@
         font-size: 14px;
     }
 
-    .main-list {font-size: 14px;}
+    .main-list {
+        font-size: 14px;
+    }
 
     .xs-header {
         padding-bottom: 100px;
@@ -142,7 +144,7 @@
     }
 
     .headerContent_button {
-        padding-bottom: 180px;
+        padding-bottom: 120px;
     }
 
     .headerContent_button a {
@@ -341,15 +343,19 @@
     }
 
     #answer.our-decision .answer_desc .numbered-list, #answer.our-decision .answer_desc p {
-      width: 100%;
+        width: 100%;
     }
 
     .book-description {
-      -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-      flex-direction: column;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
     }
-    .book-description ul {padding: 0; padding-left: 15px;}
+
+    .book-description ul {
+        padding: 0;
+        padding-left: 15px;
+    }
 
 }
 
