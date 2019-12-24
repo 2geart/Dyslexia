@@ -253,44 +253,23 @@
                     widthWindow = $(window).innerWidth(),
                     scrollValue = $(window).scrollTop();
 
-                if (widthWindow > 992) {
 
                     if (scrollValue > headerHeight) {
 
                         $('.xs-menus ').addClass('fixed-top').css({
+                        	'position': 'fixed',
                             'backgroundImage': 'linear-gradient(to right, #660066, #b700b7)',
-                            'padding': '0 5%',
+                            'padding': '0 4%',
                         });
 
                     } else {
 
                         $('.xs-menus ').removeClass('fixed-top').css({
+                        	'position': 'relative',
                             'backgroundImage': '',
                             'padding': '',
                         });
                     }
-                }
-
-                if (widthWindow <= 992) {
-
-                    if (scrollValue > headerHeight) {
-
-                        $('.xs_nav-portrait').addClass('fixed-top').css({
-                            'position': 'fixed',
-                            'padding-left': '15px',
-                            'backgroundImage': 'linear-gradient(to right, #660066, #b700b7)',
-                        });
-
-                    } else {
-
-                        $('.xs_nav-portrait').removeClass('fixed-top').css({
-                            'position': 'relative',
-                            'padding': '',
-                            'backgroundImage': '',
-                        });
-                    }
-
-                }
 
             });
 
